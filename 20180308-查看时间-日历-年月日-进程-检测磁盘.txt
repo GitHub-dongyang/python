@@ -1,0 +1,29 @@
+查看日历：
+        command：cal（日历-calendar的简称）
+           demo: cal  2020  -y  >  名称.txt  (将2020年的日历以名称.txt 保存)
+                 同上 cal 2020 > 名称.txt
+        command: date(查看具体时间， 注意区分大小写 )
+
+查看进程：
+        command：ps      （查看当前终端下运行的进程的数量）
+                 ps -aux （查看所有运行的进程的数量）
+                 一次性显示当前运行进程
+        command：top（输入ps -aux,执行之后再次输入top/htop）
+        command：htop
+                 实时显示当前运行进程
+结束进程：
+        demo：kill  PID
+              KILL  -9 PID  强制结束某进程 
+
+检测目录所占用磁盘空间：
+                     command：du
+检测磁盘空间：
+            command：df      
+
+查看或配置网卡：
+            command：ifconfig（查看）
+            command：sudo ifconfig  网卡名字  更改ip地址
+测试远程主机连通性：
+            command:ping
+
+                     

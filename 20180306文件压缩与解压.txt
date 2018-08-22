@@ -1,0 +1,18 @@
+command:tar
+         
+       options:-cvf   打包文件并且显示过程   （最普通的将多个文件打包到一起）
+               -xvf   解压打包文件
+               -zcvf  打包并且压缩文件       （压缩比率最大的压缩方式）
+               -zxvf  解压压缩文件
+               -jcvf  又一种打包压缩文件方式  （压缩比率大于zcvf的压缩方式）
+               -jxvf  又一种解压压缩文件方式
+               -zip   又一种打包压缩文件方式
+               
+   压缩demo：tar -cvf   压缩之后的文件名字.tar       所要压缩的文件
+             tar -zcvf  压缩之后的文件名字.tar.gz    所要压缩的文件
+             tar -jcvf  压缩之后的文件名字.tar.bz2   所要压缩的文件 
+             zip   压缩之后的文件名字.zip   所要压缩的文件
+   解压demo：tar -zxvf  压缩之后的文件名字.tar.gz     （默认解压到当前路径）
+             unzip  压缩之后的文件名字.zip
+   解压到指定路径demo：tar -zxvf 12.tar.gz -C /home/jd/python/demo/nb/1   （注意 C 是大写字母，且C是用在gz,bz2类型压缩文件   而zip压缩类型文件是用  D ）
+                   

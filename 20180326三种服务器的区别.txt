@@ -1,0 +1,5 @@
+FTP：file transfer protocol，文件传输协议
+图形界面的FTP（文件传输）客户端：filezilla
+ssh：
+Samba：
+三者之间的区别：https://blog.csdn.net/macrohasdefined/article/details/10325205

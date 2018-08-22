@@ -1,0 +1,7 @@
+command:find     查找文件命令
+            
+            options:-name
+                    -size
+                    -perm  权限为×的文件夹
+            example:find 路径  options   查找文件关键字
+                    find 路径  options   查找文件大小 

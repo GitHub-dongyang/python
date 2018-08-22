@@ -1,0 +1,3 @@
+command:which  查看命令所在位置
+        
+        demo： which ls 

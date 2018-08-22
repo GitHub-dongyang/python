@@ -1,0 +1,26 @@
+添加用户： 
+        command:useradd 
+        demo:useradd  用户名 -m（如果没有权限，添加sudo）
+查看当前系统用户：
+         demo：cat /etc/passwd(在最末尾可看到当前所有用户名)
+切换用户：demo:su 用户名 （切换到目标用户）
+          demo:su - 用户名（切换到目标用户且同时切换到目录用户的主目录）
+切换到超级用户：demo:sudo -s  
+更换用户密码：passwd 用户名 
+删除用户：command:userdel
+          demo:userdel 用户名（删除用户）
+               sudo userdel 用户名 -r(不仅删除用户，用户主目录下的所有文件都会删除！)
+用户组的查看、创建与删除：group
+             查看demo:cat /etc/group
+                      groupmod  +tab键  （自动补全所有组）  （mod=modify“修改”） 
+             创建demo:groupadd  用户组名称
+             删除demo:groupdel  用户组名称
+为创建的普通用户添加sudo权限：
+                           demo：sudo usermod -a -G sudo 用户名（添加sudo权限之后当前用户便拥有root超级管理权限）
+修改文件所有者：command:chown（=change own）
+               demo:chown 用户名称  文件名称
+修改文件所属组：command:chgrp(=change group)
+               demo:chgrp 用户名组名称  文件名称
+               
+
+        

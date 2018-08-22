@@ -1,0 +1,9 @@
+修改文件的权限：command:chmod(=change modify)
+               u(=user)
+               g(=group)
+               o(=other)
+               r(=read)
+               w(=write)
+               x(=执行)
+字母法：
+demo:chmod u=rw,g=,o=  文件名称（表示该文件拥有者拥有读和写的权限，同组其他用户和其他人没有权限读、写和执行）
